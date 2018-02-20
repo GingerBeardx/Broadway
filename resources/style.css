@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   text-align:center;
   font-family:Helvetica;
@@ -11,6 +12,12 @@ li {
   list-style: none;
 }
 
+h3 {
+  font-size: 23px;
+  margin: 6px;
+  font-weight: 800;
+}
+
 a {
   color:white;
   font-size: 18px;
@@ -18,12 +25,13 @@ a {
 }
 
 a:hover {
-  color:green;
+  color:navy;
 }
 
 .header {
   color:white;
   background-image: url("../resources/images/the-flatiron-building.png");
+  border-radius: 20px;
 }
 
 .header h1 {
@@ -39,7 +47,7 @@ a:hover {
 }
 
 .process {
-  width=80%;
+  margin-top:20px;
   padding-top:15px;
   background-color: azure;
   border-radius: 30px;
@@ -52,12 +60,39 @@ a:hover {
   font-weight: 800;
 }
 
-.process h3 {
-  font-size: 23px;
-  margin: 6px;
+.process p {
+  padding-bottom: 35px;
+}
+
+.about-us {
+  border-radius: 15px;
+  background-color: lavender;
+}
+.about-us h2 {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-image: url("../resources/images/the-flatiron-building.png");
+  color:white;
+  font-size:23px;
   font-weight: 800;
 }
 
-.process p {
-  padding-bottom: 35px;
+.about-us h3 {
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: dimgray;
+}
+
+.footer li {
+  display:inline;
+  padding: 2px;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
 }
