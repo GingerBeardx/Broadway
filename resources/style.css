@@ -6,6 +6,8 @@
 body {
   text-align:center;
   font-family:Helvetica;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 li {
@@ -29,6 +31,7 @@ a:hover {
 }
 
 .header {
+  margin-top:25px;
   color:white;
   background-image: url("../resources/images/the-flatiron-building.png");
   border-radius: 20px;
@@ -83,13 +86,15 @@ a:hover {
 
 .footer {
   margin-top: 20px;
+  border: 1px teal dotted;
   border-radius: 15px;
   background-color: dimgray;
+  margin-bottom: 100px;
 }
 
 .footer li {
   display:inline;
-  padding: 2px;
+  padding: 6px;
 }
 
 #copyright {
