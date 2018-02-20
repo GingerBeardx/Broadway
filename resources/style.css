@@ -37,3 +37,27 @@ a:hover {
   padding: 6px;
   text-decoration: none;
 }
+
+.process {
+  width=80%;
+  padding-top:15px;
+  background-color: azure;
+  border-radius: 30px;
+  border: 2px skyblue solid;
+}
+
+.process h2 {
+  font-size:32px;
+  padding-bottom: 6px;
+  font-weight: 800;
+}
+
+.process h3 {
+  font-size: 23px;
+  margin: 6px;
+  font-weight: 800;
+}
+
+.process p {
+  padding-bottom: 35px;
+}
